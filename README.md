@@ -10,9 +10,10 @@
 ### Enable UDP on ssh
 ```
   apt update -y && apt upgrade -y
+```  
 ```
   apt install screen
-```
+``` 
 ```
   apt install lsof
 ```
