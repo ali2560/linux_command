@@ -38,7 +38,7 @@ paste this command on /etc/rc.local
 ```
   reboot
 ```
-### Change owner directory on Ubuntu
+### Change owner of directory on Ubuntu
 ```
 sudo chown -R username:group directory
 ```
