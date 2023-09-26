@@ -7,7 +7,7 @@
 ```
   ifdown eth0 && ifup eth0
 ```
-### Enable UDP on ssh
+### Enable UDP on SSH
 ```
   apt update -y && apt upgrade -y
 ```  
@@ -26,7 +26,7 @@
 ```
   nano /etc/rc.local
 ```
-pase this command on /etc/rc.local
+paste this command on /etc/rc.local
 ```
   #!/bin/sh -e
   screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7555
@@ -37,5 +37,9 @@ pase this command on /etc/rc.local
 ```
 ```
   reboot
+```
+### Change owner directory on Ubuntu
+```
+sudo chown -R username:group directory
 ```
 
