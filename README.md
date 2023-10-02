@@ -38,6 +38,9 @@ paste this command on /etc/rc.local
 ```
   reboot
 ```
+```
+ lsof -i -P -n | grep LISTEN
+```
 ### Change owner of directory on Ubuntu
 ```
 sudo chown -R username:group directory
